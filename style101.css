@@ -1,0 +1,85 @@
+
+#page , body{
+    margin: 0%;
+}
+
+
+.auth_text{
+    font-family: "Montserrat", sans-serif;
+    font-size: calc(1em + 2vw);
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(41, 32, 94);
+    color:beige;
+    margin-bottom: 1em;
+}
+
+.form_field {
+    position: relative;
+    min-height: 100vh;
+    background-color: #4d6dfff3;
+    background-image: url(img/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.form {
+    position: absolute;
+    width:100%;
+    bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.login_input, .pass_input {
+    display: block;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    transition: transform 0.3s ease-out;
+    color: #02f;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.671);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.login_input:focus,
+.pass_input:focus {
+  transition: transform 0.3s ease-out;
+  transform: scale(1.02, 1.02);
+}
+
+.submit {
+    display: inline-block;
+    padding: 12px 32px;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #02f;
+    background-clip: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    
+}
+
+.submit:hover {
+    transition: all 0.3s ease-out;
+    transform: scale(1.02, 1.02);
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 16px 2px;
+  }
+
+.before {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
